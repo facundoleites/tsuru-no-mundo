@@ -11,7 +11,9 @@ const IndexPage = ({ data }) => {
         <h2>Tsuru no mundo são historias e origami</h2>
       </header>
       <Gallery posts={data.allInstagramContent} />
-      <footer className="footer">@TsuruNoMundo</footer>
+      <footer className="footer">
+        @TsuruNoMundo - <small>by Facundo Leites</small>
+      </footer>
     </main>
   );
 };
